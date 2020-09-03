@@ -10,8 +10,11 @@ namespace Vehicles
             Zero fxs = new Zero();
             Zero fx = new Zero();
             Tesla modelS = new Tesla();
+            Cessna datboi = new Cessna();
 
+            fxs.Drive();
             modelS.Drive();
+            datboi.Drive();
 
             // modelS.ChargeBattery(2.2);
 
