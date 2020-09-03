@@ -10,18 +10,22 @@ namespace Vehicles
             Zero fxs = new Zero()
             {
                 MainColor = "Sanguine",
+                Model = "fxs"
             };
             Zero fx = new Zero()
             {
-                MainColor = "Robin's Egg Blue"
+                MainColor = "Robin's Egg Blue",
+                Model = "fx"
             };
             Tesla modelS = new Tesla()
             {
-                MainColor = "Forrest Green"
+                MainColor = "Forrest Green",
+                Model = "modelS"
             };
             Cessna datboi = new Cessna()
             {
-                MainColor = "Royal Purple"
+                MainColor = "Royal Purple",
+                Model = "datboi"
             };
 
             fxs.Drive();

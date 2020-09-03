@@ -7,7 +7,7 @@ namespace Vehicles
 
         public override void Drive()
         {
-            Console.WriteLine($"{MainColor}   Dem Arby's Bois Wheel's Up! Skrt Skrt");
+            Console.WriteLine($"{MainColor} {Model} Dem Arby's Bois Wheel's Up! Skrt Skrt");
         }
     }
 }

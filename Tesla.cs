@@ -15,7 +15,7 @@ namespace Vehicles
         //in Vehicle.cs
         public override void Drive()
         {
-            Console.WriteLine($"The {MainColor} rushes past you hurridly! Zooooom!");
+            Console.WriteLine($"The {MainColor} {Model} rushes past you hurridly! Zooooom!");
         }
     }
 }
