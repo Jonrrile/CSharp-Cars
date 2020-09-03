@@ -1,9 +1,11 @@
 using System;
+using System.Collections.Generic;
 
 namespace Vehicles
 {
     public class Vehicle
     {
+        public List<IElectricVehicle> ElectricVehicles { get; set; }
         public string MainColor { get; set; }
         public string Model { get; set; }
         public string MaximumOccupancy { get; set; }
@@ -22,5 +24,13 @@ namespace Vehicles
         {
             Console.WriteLine("Pretty sure that was a stop sign");
         }
+        public void ChargeBattery()
+        {
+            int FullyCharged = 100;
+            Console.WriteLine($"New Battery LVL: {FullyCharged}");
+
+        }
+
     }
+
 }

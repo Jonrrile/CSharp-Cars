@@ -6,12 +6,8 @@ namespace Vehicles
 
     public class Zero : Vehicle, IElectricVehicle
     {
-        public int CurrentChargePercentage { get; } = 0;
+        public int CurrentChargePercentage { get; set; }
         public double BatteryKWh { get; set; }
 
-        public void ChargeBattery()
-        {
-
-        }
     }
 }

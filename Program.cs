@@ -48,13 +48,18 @@ namespace Vehicles
             Console.WriteLine("Electric Vehicles");
             foreach (IElectricVehicle ev in electricVehicles)
             {
-                Console.WriteLine($"{ev.CurrentChargePercentage}");
+                Console.WriteLine($"Current Battery LVL: {ev.CurrentChargePercentage}");
+
             }
+            Console.WriteLine();
+            Console.WriteLine("Charging up!");
+            Console.WriteLine();
 
             foreach (IElectricVehicle ev in electricVehicles)
             {
                 ev.ChargeBattery();
             }
+
         }
     }
 }

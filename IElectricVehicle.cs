@@ -5,5 +5,6 @@ namespace Vehicles
         int CurrentChargePercentage { get; }
         double BatteryKWh { get; set; }
         void ChargeBattery();
+
     }
 }
