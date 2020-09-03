@@ -4,7 +4,11 @@ namespace Vehicles
 {
     public class Cessna : Vehicle
     {
+        public double FuelCapacity { get; set; }
+        public void RefuelTank()
+        {
 
+        }
         public override void Drive()
         {
             Console.WriteLine($"{MainColor} {Model} Dem Arby's Bois Wheel's Up! Skrt Skrt");

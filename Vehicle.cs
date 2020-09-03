@@ -7,7 +7,6 @@ namespace Vehicles
         public string MainColor { get; set; }
         public string Model { get; set; }
         public string MaximumOccupancy { get; set; }
-        public double BatterKHw { get; set; }
 
         public virtual void Drive()
         {
