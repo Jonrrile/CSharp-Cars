@@ -4,10 +4,11 @@ using System.Collections.Generic;
 namespace Vehicles
 {
 
-    public class Tesla : Vehicle
+    public class Tesla : Vehicle, IElectricVehicle
     {
+        public int CurrentChargePercentage { get; } = 0;
         public double BatteryKWh { get; set; }
-        // public void ChargeBattery()
+        public void ChargeBattery()
         {
 
         }

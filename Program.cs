@@ -40,9 +40,21 @@ namespace Vehicles
             datboi.Turn();
             datboi.Stop();
 
-            // modelS.ChargeBattery(2.2);
+            List<IElectricVehicle> electricVehicles = new List<IElectricVehicle>()
+            {
+                fxs,
+                modelS
+            };
+            Console.WriteLine("Electric Vehicles");
+            foreach (IElectricVehicle ev in electricVehicles)
+            {
+                Console.WriteLine($"{ev.CurrentChargePercentage}");
+            }
 
-            List<Zero> electricVehicles = new List<Zero>() { fx, fxs };
+            foreach (IElectricVehicle ev in electricVehicles)
+            {
+                ev.ChargeBattery();
+            }
         }
     }
 }

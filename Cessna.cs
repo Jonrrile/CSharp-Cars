@@ -2,7 +2,7 @@ using System;
 
 namespace Vehicles
 {
-    public class Cessna : Vehicle
+    public class Cessna : Vehicle, IGasVehicle
     {
         public double FuelCapacity { get; set; }
         public void RefuelTank()
