@@ -29,8 +29,16 @@ namespace Vehicles
             };
 
             fxs.Drive();
+            fxs.Turn();
+            fxs.Stop();
+            Console.WriteLine();
             modelS.Drive();
+            modelS.Turn();
+            modelS.Stop();
+            Console.WriteLine();
             datboi.Drive();
+            datboi.Turn();
+            datboi.Stop();
 
             // modelS.ChargeBattery(2.2);
 

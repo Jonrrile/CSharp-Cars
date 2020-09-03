@@ -14,5 +14,14 @@ namespace Vehicles
             Console.WriteLine($"The {MainColor} {Model} zooms past you? Vrooom!");
         }
 
+        public virtual void Turn()
+        {
+            Console.WriteLine("Turn left");
+        }
+
+        public virtual void Stop()
+        {
+            Console.WriteLine("Pretty sure that was a stop sign");
+        }
     }
 }

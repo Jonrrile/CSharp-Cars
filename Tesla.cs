@@ -17,5 +17,13 @@ namespace Vehicles
         {
             Console.WriteLine($"The {MainColor} {Model} rushes past you hurridly! Zooooom!");
         }
+        public override void Turn()
+        {
+            Console.WriteLine($"Turn right.");
+        }
+        public override void Stop()
+        {
+            Console.WriteLine($"Pretty sure that was a red light!");
+        }
     }
 }
