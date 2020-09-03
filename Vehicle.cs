@@ -7,7 +7,7 @@ namespace Vehicles
         public string MainColor { get; set; }
         public string MaximumOccupancy { get; set; }
 
-        public void Drive()
+        public virtual void Drive()
         {
             Console.WriteLine("Vrooom!");
         }

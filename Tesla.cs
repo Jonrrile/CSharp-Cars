@@ -11,5 +11,11 @@ namespace Vehicles
         {
 
         }
+        //This is where I override the method that is set
+        //in Vehicle.cs
+        public override void Drive()
+        {
+            Console.WriteLine("Zooooom!");
+        }
     }
 }
