@@ -7,10 +7,22 @@ namespace Vehicles
     {
         static void Main(string[] args)
         {
-            Zero fxs = new Zero();
-            Zero fx = new Zero();
-            Tesla modelS = new Tesla();
-            Cessna datboi = new Cessna();
+            Zero fxs = new Zero()
+            {
+                MainColor = "Sanguine",
+            };
+            Zero fx = new Zero()
+            {
+                MainColor = "Robin's Egg Blue"
+            };
+            Tesla modelS = new Tesla()
+            {
+                MainColor = "Forrest Green"
+            };
+            Cessna datboi = new Cessna()
+            {
+                MainColor = "Royal Purple"
+            };
 
             fxs.Drive();
             modelS.Drive();

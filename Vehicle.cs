@@ -6,10 +6,11 @@ namespace Vehicles
     {
         public string MainColor { get; set; }
         public string MaximumOccupancy { get; set; }
+        public double BatterKHw { get; set; }
 
         public virtual void Drive()
         {
-            Console.WriteLine("Vrooom!");
+            Console.WriteLine($"The {MainColor} zooms past you? Vrooom!");
         }
 
     }

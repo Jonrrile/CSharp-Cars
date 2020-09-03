@@ -6,7 +6,7 @@ namespace Vehicles
 
     public class Tesla : Vehicle
     {
-        public double BatteryKWh { get; set; }
+
         public void ChargeBattery()
         {
 
@@ -15,7 +15,7 @@ namespace Vehicles
         //in Vehicle.cs
         public override void Drive()
         {
-            Console.WriteLine("Zooooom!");
+            Console.WriteLine($"The {MainColor} rushes past you hurridly! Zooooom!");
         }
     }
 }
